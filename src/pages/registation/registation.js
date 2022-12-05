@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import { AiFillEyeInvisible, AiFillEye } from "react-icons/ai";
-import { FallingLines } from "react-icons/fa";
+import { FallingLines } from "react-loader-spinner";
 const Registation = () => {
   let [email, setEmail] = useState("");
   let [fullname, setFullname] = useState("");
@@ -55,6 +55,7 @@ const Registation = () => {
   };
   return (
     <div className="flex px-5 md:px-0 box-border">
+      
       <ToastContainer position="bottom-center" />
       <div className=" w-full md:w-1/2 flex md:justify-end justify-center items-center">
         <div className="md:mr-16 my-10 md:my-0">
@@ -126,12 +127,12 @@ const Registation = () => {
 
           {loading ? (
             <div className="bg-primary  md:w-96 w-full rounded-full flex justify-center">
-             {/*  <FallingLines
+              <FallingLines
                 color="#fff"
                 width="70"
                 visible={true}
                 ariaLabel="falling-lines-loading"
-              /> */}
+              />
             </div>
           ) : (
             <button

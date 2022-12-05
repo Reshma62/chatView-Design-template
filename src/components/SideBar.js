@@ -36,7 +36,7 @@ const SideBar = () => {
       <div className="">
         <div className="relative mt-24 z-[1] flex justify-center ">
           <FaHome className="text-5xl text-primary" />
-          <div className="absolute w-full  bg-white  top-[-13px] z-[-1] left-[36px] py-10 rounded-l-2xl"></div>
+          <div className="absolute w-[80%]  bg-white  top-[-13px] z-[-1] left-[36px] py-10 rounded-l-2xl"></div>
           <div className="absolute w-[13px]  bg-primary  top-[-13px] z-[-1] right-[0] py-10 rounded-l-2xl"></div>
         </div>
         <div className="relative mt-24 z-[1] flex justify-center ">

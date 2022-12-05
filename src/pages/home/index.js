@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import SideBar from '../../components/SideBar';
 import Search from '../../components/Search';
 import GroupList from "../../components/GroupList";
-import FriendList from "../../components/FriendList";
+import FriendRequst from "../../components/FriendRequst";
 import Friends from "../../components/Friends";
 import Mygroups from "../../components/Mygroups";
 import UserList from "../../components/UserList";
@@ -12,22 +12,22 @@ import BlockUser from "../../components/BlockUser";
 const Home = () => {
     let [verify, setVerify] = useState(true);
   return (
-    <div className="flex justify-around py-5 box-border ">
+    <div className="flex justify-aee py-5 pl-5 box-border ">
       {verify ? (
         <>
-          <div className="w-[220px] bg-primary h-screen max-h-[930px] rounded-3xl">
+          <div className="w-[180px]  bg-primary h-screen max-h-[930px] rounded-3xl">
             <SideBar />
           </div>
-          <div className="w-[540px]">
+          <div className="w-[560px]">
             <Search />
             <GroupList />
-            <FriendList />
+            <FriendRequst />
           </div>
-          <div className="w-[460px]">
+          <div className="w-[560px]">
             <Friends />
             <Mygroups />
           </div>
-          <div className="w-[460px] ">
+          <div className="w-[500px] ">
             <UserList />
             <BlockUser />
           </div>

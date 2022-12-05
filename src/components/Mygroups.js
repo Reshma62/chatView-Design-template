@@ -7,144 +7,136 @@ const MyGroups = () => {
         <h2 className="font-pop text-xl font-semibold mb-5">My Groups</h2>
         <BsThreeDotsVertical className="absolute right-0 text-2xl top-2.5 text-primary" />
         <div className="flex mt-5 items-center border-b border-black pb-4">
-          <div className="mr-10">
+          <div className="w-[20%]">
             <img src="images/friends.png" />
           </div>
-          <div className="mr-10">
+          <div className="w-[50%]">
             <h3 className="font-pop font-semibold text-xl text-black">Name</h3>
             <p className="font-pop font-medium text-[#4D4D4D]">
               Hi Guys, Wassup!
             </p>
           </div>
-          <button className="font-pop font-semibold text-white bg-primary text-xl py-2 px-6 rounded-lg">
-            Accept
-          </button>
+          <div className="w-[37%] flex flex-wrap">
+            <button className=" w-[45%] font-pop font-semibold text-white bg-primary text-base py-2 px-3 rounded-lg mr-2">
+              Info
+            </button>
+            <button className=" w-[50%] font-pop font-semibold text-white bg-primary text-base py-2 px-3 rounded-lg">
+              Requset
+            </button>
+            <button className=" w-full mt-2 font-pop font-semibold text-white bg-red-500 text-base py-2 px-3 rounded-lg">
+              Delete
+            </button>
+          </div>
         </div>
         <div className="flex mt-5 items-center border-b border-black pb-4">
-          <div className="mr-10">
+          <div className="w-[20%]">
             <img src="images/friends.png" />
           </div>
-          <div className="mr-10">
+          <div className="w-[50%]">
             <h3 className="font-pop font-semibold text-xl text-black">Name</h3>
             <p className="font-pop font-medium text-[#4D4D4D]">
               Hi Guys, Wassup!
             </p>
           </div>
-          <button className="font-pop font-semibold text-white bg-primary text-xl py-2 px-6 rounded-lg">
-            Accept
-          </button>
+          <div className="w-[37%] flex flex-wrap">
+            <button className=" w-[45%] font-pop font-semibold text-white bg-primary text-base py-2 px-3 rounded-lg mr-2">
+              Info
+            </button>
+            <button className=" w-[50%] font-pop font-semibold text-white bg-primary text-base py-2 px-3 rounded-lg">
+              Requset
+            </button>
+            <button className=" w-full mt-2 font-pop font-semibold text-white bg-red-500 text-base py-2 px-3 rounded-lg">
+              Delete
+            </button>
+          </div>
         </div>
         <div className="flex mt-5 items-center border-b border-black pb-4">
-          <div className="mr-10">
+          <div className="w-[20%]">
             <img src="images/friends.png" />
           </div>
-          <div className="mr-10">
+          <div className="w-[50%]">
             <h3 className="font-pop font-semibold text-xl text-black">Name</h3>
             <p className="font-pop font-medium text-[#4D4D4D]">
               Hi Guys, Wassup!
             </p>
           </div>
-          <button className="font-pop font-semibold text-white bg-primary text-xl py-2 px-6 rounded-lg">
-            Accept
-          </button>
+          <div className="w-[37%] flex flex-wrap">
+            <button className=" w-[45%] font-pop font-semibold text-white bg-primary text-base py-2 px-3 rounded-lg mr-2">
+              Info
+            </button>
+            <button className=" w-[50%] font-pop font-semibold text-white bg-primary text-base py-2 px-3 rounded-lg">
+              Requset
+            </button>
+            <button className=" w-full mt-2 font-pop font-semibold text-white bg-red-500 text-base py-2 px-3 rounded-lg">
+              Delete
+            </button>
+          </div>
         </div>
         <div className="flex mt-5 items-center border-b border-black pb-4">
-          <div className="mr-10">
+          <div className="w-[20%]">
             <img src="images/friends.png" />
           </div>
-          <div className="mr-10">
+          <div className="w-[50%]">
             <h3 className="font-pop font-semibold text-xl text-black">Name</h3>
             <p className="font-pop font-medium text-[#4D4D4D]">
               Hi Guys, Wassup!
             </p>
           </div>
-          <button className="font-pop font-semibold text-white bg-primary text-xl py-2 px-6 rounded-lg">
-            Accept
-          </button>
+          <div className="w-[37%] flex flex-wrap">
+            <button className=" w-[45%] font-pop font-semibold text-white bg-primary text-base py-2 px-3 rounded-lg mr-2">
+              Info
+            </button>
+            <button className=" w-[50%] font-pop font-semibold text-white bg-primary text-base py-2 px-3 rounded-lg">
+              Requset
+            </button>
+            <button className=" w-full mt-2 font-pop font-semibold text-white bg-red-500 text-base py-2 px-3 rounded-lg">
+              Delete
+            </button>
+          </div>
         </div>
         <div className="flex mt-5 items-center border-b border-black pb-4">
-          <div className="mr-10">
+          <div className="w-[20%]">
             <img src="images/friends.png" />
           </div>
-          <div className="mr-10">
+          <div className="w-[50%]">
             <h3 className="font-pop font-semibold text-xl text-black">Name</h3>
             <p className="font-pop font-medium text-[#4D4D4D]">
               Hi Guys, Wassup!
             </p>
           </div>
-          <button className="font-pop font-semibold text-white bg-primary text-xl py-2 px-6 rounded-lg">
-            Accept
-          </button>
+          <div className="w-[37%] flex flex-wrap">
+            <button className=" w-[45%] font-pop font-semibold text-white bg-primary text-base py-2 px-3 rounded-lg mr-2">
+              Info
+            </button>
+            <button className=" w-[50%] font-pop font-semibold text-white bg-primary text-base py-2 px-3 rounded-lg">
+              Requset
+            </button>
+            <button className=" w-full mt-2 font-pop font-semibold text-white bg-red-500 text-base py-2 px-3 rounded-lg">
+              Delete
+            </button>
+          </div>
         </div>
         <div className="flex mt-5 items-center border-b border-black pb-4">
-          <div className="mr-10">
+          <div className="w-[20%]">
             <img src="images/friends.png" />
           </div>
-          <div className="mr-10">
+          <div className="w-[50%]">
             <h3 className="font-pop font-semibold text-xl text-black">Name</h3>
             <p className="font-pop font-medium text-[#4D4D4D]">
               Hi Guys, Wassup!
             </p>
           </div>
-          <button className="font-pop font-semibold text-white bg-primary text-xl py-2 px-6 rounded-lg">
-            Accept
-          </button>
-        </div>
-        <div className="flex mt-5 items-center border-b border-black pb-4">
-          <div className="mr-10">
-            <img src="images/friends.png" />
+          <div className="w-[37%] flex flex-wrap">
+            <button className=" w-[45%] font-pop font-semibold text-white bg-primary text-base py-2 px-3 rounded-lg mr-2">
+              Info
+            </button>
+            <button className=" w-[50%] font-pop font-semibold text-white bg-primary text-base py-2 px-3 rounded-lg">
+              Requset
+            </button>
+            <button className=" w-full mt-2 font-pop font-semibold text-white bg-red-500 text-base py-2 px-3 rounded-lg">
+              Delete
+            </button>
           </div>
-          <div className="mr-10">
-            <h3 className="font-pop font-semibold text-xl text-black">Name</h3>
-            <p className="font-pop font-medium text-[#4D4D4D]">
-              Hi Guys, Wassup!
-            </p>
-          </div>
-          <button className="font-pop font-semibold text-white bg-primary text-xl py-2 px-6 rounded-lg">
-            Accept
-          </button>
-        </div>
-        <div className="flex mt-5 items-center border-b border-black pb-4">
-          <div className="mr-10">
-            <img src="images/friends.png" />
-          </div>
-          <div className="m1-20">
-            <h3 className="font-pop font-semibold text-xl text-black">Name</h3>
-            <p className="font-pop font-medium text-[#4D4D4D]">
-              Hi Guys, Wassup!
-            </p>
-          </div>
-          <button className="font-pop font-semibold text-white bg-primary text-xl py-2 px-6 rounded-lg">
-            Accept
-          </button>
-        </div>
-        <div className="flex mt-5 items-center border-b border-black pb-4">
-          <div className="mr-10">
-            <img src="images/friends.png" />
-          </div>
-          <div className="mr-10">
-            <h3 className="font-pop font-semibold text-xl text-black">Name</h3>
-            <p className="font-pop font-medium text-[#4D4D4D]">
-              Hi Guys, Wassup!
-            </p>
-          </div>
-          <button className="font-pop font-semibold text-white bg-primary text-xl py-2 px-6 rounded-lg">
-            Accept
-          </button>
-        </div>
-        <div className="flex mt-5 items-center border-b border-black pb-4">
-          <div className="mr-10">
-            <img src="images/friends.png" />
-          </div>
-          <div className="mr-10">
-            <h3 className="font-pop font-semibold text-xl text-black">Name</h3>
-            <p className="font-pop font-medium text-[#4D4D4D]">
-              Hi Guys, Wassup!
-            </p>
-          </div>
-          <button className="font-pop font-semibold text-white bg-primary text-xl py-2 px-6 rounded-lg">
-            Accept
-          </button>
         </div>
       </div>
     </div>
