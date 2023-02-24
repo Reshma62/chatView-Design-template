@@ -7,6 +7,7 @@ import {
 } from "react-icons/md";
 import { FaHome } from "react-icons/fa";
 import { BsFillChatDotsFill } from "react-icons/bs";
+import { Link } from "react-router-dom";
 const SideBar = () => {
   let [modal, setModal] = useState(false);
   let handleModalOpen = () => {
@@ -34,34 +35,43 @@ const SideBar = () => {
       </div>
       <h4 className="text-white text-center text-2xl mt-5">dispay name</h4>
       <div className="">
-        <div className="relative mt-24 z-[1] flex justify-center ">
+        <Link to={"/"} className="relative mt-24 z-[1] flex justify-center ">
           <FaHome className="text-5xl text-primary" />
           <div className="absolute w-[80%]  bg-white  top-[-13px] z-[-1] left-[36px] py-10 rounded-l-2xl"></div>
           <div className="absolute w-[13px]  bg-primary  top-[-13px] z-[-1] right-[0] py-10 rounded-l-2xl"></div>
-        </div>
-        <div className="relative mt-24 z-[1] flex justify-center ">
+        </Link>
+        <Link
+          to="/message"
+          className="relative mt-24 z-[1] flex justify-center "
+        >
           <BsFillChatDotsFill className="text-5xl text-[#BAD1FF]" />
           <div className="absolute w-full  bg-none  top-[-13px] z-[-1] left-[36px] py-10 rounded-l-2xl"></div>
           <div className="absolute w-[13px]  bg-none  top-[-13px] z-[-1] right-[0] py-10 rounded-l-2xl"></div>
-        </div>
-        <div className="relative mt-24 z-[1] flex justify-center ">
+        </Link>
+        <Link
+          to={"/notification"}
+          className="relative mt-24 z-[1] flex justify-center "
+        >
           <MdNotifications className="text-5xl text-[#BAD1FF]" />
           <div className="absolute w-full  bg-none  top-[-13px] z-[-1] left-[36px] py-10 rounded-l-2xl"></div>
           <div className="absolute w-[13px]  bg-none  top-[-13px] z-[-1] right-[0] py-10 rounded-l-2xl"></div>
-        </div>
-        <div className="relative mt-24 z-[1] flex justify-center ">
+        </Link>
+        <Link
+          to={"/settings"}
+          className="relative mt-24 z-[1] flex justify-center "
+        >
           <MdSettings className="text-5xl text-[#BAD1FF]" />
           <div className="absolute w-full  bg-none  top-[-13px] z-[-1] left-[36px] py-10 rounded-l-2xl"></div>
           <div className="absolute w-[13px]  bg-none  top-[-13px] z-[-1] right-[0] py-10 rounded-l-2xl"></div>
-        </div>
-        <div
+        </Link>
+        <Link to={"/login"}
           onClick={handleLogout}
           className="relative mt-24 z-[1] flex justify-center "
         >
           <MdOutlineLogout className="text-5xl text-[#BAD1FF]" />
           <div className="absolute w-full  bg-none  top-[-13px] z-[-1] left-[36px] py-10 rounded-l-2xl"></div>
           <div className="absolute w-[13px]  bg-none  top-[-13px] z-[-1] right-[0] py-10 rounded-l-2xl"></div>
-        </div>
+        </Link>
       </div>
       {/* Modal Upload Pic */}
       {modal && (

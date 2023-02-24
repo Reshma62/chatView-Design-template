@@ -1,6 +1,6 @@
-import React,{useState} from 'react'
-import SideBar from '../../components/SideBar';
-import Search from '../../components/Search';
+import React, { useState } from "react";
+import SideBar from "../../components/SideBar";
+import Search from "../../components/Search";
 import GroupList from "../../components/GroupList";
 import FriendRequst from "../../components/FriendRequst";
 import Friends from "../../components/Friends";
@@ -8,14 +8,13 @@ import Mygroups from "../../components/Mygroups";
 import UserList from "../../components/UserList";
 import BlockUser from "../../components/BlockUser";
 
-
 const Home = () => {
-    let [verify, setVerify] = useState(true);
+  let [verify, setVerify] = useState(true);
   return (
-    <div className="flex justify-aee py-5 pl-5 box-border ">
+    <div className="flex justify-between py-5 pl-5 box-border ">
       {verify ? (
         <>
-          <div className="w-[180px]  bg-primary h-screen max-h-[930px] rounded-3xl">
+          <div className="w-[180px] bg-primary h-screen max-h-[930px] rounded-3xl">
             <SideBar />
           </div>
           <div className="w-[560px]">
@@ -41,6 +40,6 @@ const Home = () => {
       )}
     </div>
   );
-}
+};
 
-export default Home
+export default Home;
